@@ -114,7 +114,7 @@ export default function Home() {
   return (
     <div className="container max-w-2xl mx-auto p-5">
       <Head>
-        <title>Quirky</title> <meta property="og:image" content={ogImage} />
+        <title>QR Diffusion</title> <meta property="og:image" content={ogImage} />
         <meta
           property="og:description"
           content="Make really cool QR codes with AI."
@@ -128,20 +128,20 @@ export default function Home() {
       </Head>
 
       <div className="text-center">
-        <h1 className="pt-6 text-center font-bold text-2xl">🔳 Quirky</h1>
+        <h1 className="pt-6 text-center font-bold text-2xl">🔳 QR Diffusion</h1>
         <h5 className="pt-3 text-xs text-gray-500">
-          Make really cool QR Codes with AI. <br /> A free and{" "}
-          <a className="underline" href="https://github.com/replicate/quirky">
-            open source
+          Make really cool QR Codes with AI. <br /> A fnew tool{" "}
+          <a className="underline" href="https://myapps.ai">
+            by AI Tutor
           </a>{" "}
           project by the{" "}
           <a
             className="underline"
-            href="https://replicate?utm_source=project&utm_campaign=quirky"
+            href="https://mytsi.org"
           >
-            Replicate
+            TSI
           </a>{" "}
-          Hackers.
+          Developers.
         </h5>
       </div>
 
